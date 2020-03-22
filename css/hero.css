@@ -1,3 +1,26 @@
+ul.Navigation{
+	background-color: #17202A;	
+	list-style-type: none;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0;
+}
+
+.Navigation li a{
+	font-family: Arial, sans-serif;
+	display:block;
+	float: left;
+	padding: 5px 20px;
+	text-decoration: none;
+	color:white;
+}
+
+.Navigation li a:hover{
+	background-color:grey;
+	text-align: center;
+	display: block;
+}
+
 body{
 	margin:0;
 	font-family: Arial, sans-serif;
